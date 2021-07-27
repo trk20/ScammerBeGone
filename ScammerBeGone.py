@@ -75,7 +75,7 @@ def sendResponses(): #go my child
     })
 
 def spamResponses():
-    for i in range(100)
+    for i in range(100):
         sendResponses()
     print("100 responses sent by this thread")
 
