@@ -75,11 +75,13 @@ def sendResponses(): #go my child
     })
 
 def spamResponses():
-    while True:
+    for i in range(100)
         sendResponses()
+    print("100 responses sent by this thread")
 
 threads = []
 for i in range(numberThreads):
     threads.append(threading.Thread(target=spamResponses))
 for i in range(numberThreads):
     threads[i].start()
+print("Sending responses- please wait")
